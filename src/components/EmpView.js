@@ -32,7 +32,7 @@ const EmpView = () => {
               Employee Name: {empdata.name} 
             </h2>
             <h3>Contact Details </h3>
-            <h5>Email : {empdata.email}</h5>
+            <h5>Email : {empdata.mail}</h5>
             <h5>Phone : {empdata.phone}</h5>
             <Link className="btn btn-danger" to ='/'>Back to List</Link>
           </div>

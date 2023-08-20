@@ -69,7 +69,7 @@ const EmpListing = () => {
                   <tr key={emp.id}>
                     <td>{emp.id}</td>
                     <td>{emp.name}</td>
-                    <td>{emp.email}</td>
+                    <td>{emp.mail}</td>
                     <td>{emp.phone}</td>
                     <td>
                       <button onClick={()=>{LoadEdit(emp.id)}} className="btn btn-success" >
